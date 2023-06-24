@@ -1,0 +1,17 @@
+.centerBlock{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+}
+.blockLeft{
+    width: 25vw;
+    background-color: rgb(230, 230, 230);
+}
+.blockRight{
+    width: 40vw;
+    background-color: rgb(197, 197, 197);
+}
+.blockLeft img{
+    width: 15vw;
+    height: 30vh;
+}

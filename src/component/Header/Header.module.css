@@ -1,0 +1,11 @@
+.headerBlock{
+    height: 10vh;
+    background-color: rgb(155, 161, 149);
+    font-size: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.headerBlock button{
+    height: 60%;
+}

@@ -1,0 +1,86 @@
+/* sign in */
+
+.contener{
+    height: 100vh;
+    width: 100vw;
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form{
+    width: 35vw;
+    height: 85vh;
+    background-color: rgb(61, 58, 92);
+    padding: 20px;
+}
+.form label{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: sans-serif;
+    margin: 20px 0;
+}
+.form label input{
+    margin-top: 5px;
+    padding: 7px 0;
+    border-radius: 6px;
+    box-shadow: 10px 10px 10px black;
+}
+button{
+    margin-top: 6px;
+    padding: 10px 90px;
+    background-color:rgb(111, 108, 145);
+    cursor: pointer;
+}
+.buttonLogin{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* sign up */
+
+
+.contenerSignUp{
+    height: 100vh;
+    width: 100vw;
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.registerForm{
+    width: 35vw;
+    height: 85vh;
+    background-color: rgb(61, 58, 92);
+    padding: 20px;
+}
+.registerForm label{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: sans-serif;
+    margin: 20px 0;
+}
+.registerForm label input{
+    margin-top: 5px;
+    padding: 7px 0;
+    border-radius: 6px;
+    box-shadow: 10px 10px 10px black;
+}
+.buton{
+    width: 100%;
+    padding: 7px 0;
+    background-color: rgb(96, 92, 143);
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+label span{
+    height: 16px;
+    color: red;
+}
